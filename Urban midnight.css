@@ -13,7 +13,10 @@ input[type="submit"],
 button,
 .current,
 .actions label,
-.actions a:visited, .action:visited, .action a:link, .action a:visited {
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
   background-color: #f5f3fa23;
   color: #bbbbbb;
   border: 1.5px solid #7e57c2;
@@ -55,8 +58,9 @@ fieldset dl dl,
 fieldset fieldset fieldset,
 fieldset fieldset dl dl,
 dd.hideme,
-fieldset fieldset, fieldset dl dl, form blockquote.userstuff
-form blockquote.userstuff {
+fieldset fieldset,
+fieldset dl dl,
+form blockquote.userstuff form blockquote.userstuff {
   border: 3px dashed #aa7fe8;
   background: #2b1c34;
 }
@@ -103,7 +107,10 @@ form blockquote.userstuff {
   color: #1e1e1e !important;
 }
 
-#header .actions a:hover, #header .actions a:focus, #header .dropdown:hover a, #header .open a{
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a {
   background-color: transparent;
   background-image: none;
   color: #d1b3ff;
@@ -113,6 +120,7 @@ li.search form.search input[type="text"] {
   background: #121212 !important;
   border: 2px dashed #d1b3ff !important;
 }
+
 #header .search .button {
   background-color: #7e57c2;
   color: #d1b3ff;
@@ -175,8 +183,9 @@ li.blurb:hover {
 .blurb .byline {
   color: #aaaaaa;
 }
+
 ul.tags li {
-    color: #bfa4dc;
+  color: #bfa4dc;
 }
 
 ul.tags li.warnings {
@@ -197,11 +206,11 @@ ul.tags li.freeforms {
 
 ul.tags li:hover {
   background-image: linear-gradient(to top, #a8edea30 0%, #fed6e330 100%) !important;
-    color: #000;
+  color: #000;
 }
 
 ul.tags li a:hover {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 a.tag:hover {
@@ -275,9 +284,11 @@ select,
 .required .autocomplete,
 .autocomplete .notice,
 .autocomplete input,
-input, textarea,
+input,
+textarea,
 .autocomplete .dropdown ul li,
-div.comment, li.comment  {
+div.comment,
+li.comment {
   color: #bfa4dc;
 }
 
@@ -292,19 +303,27 @@ li.comment:focus {
   color: #d1b3ff !important;
 }
 
-.listbox .index{
+.listbox .index {
   background-color: transparent;
 }
 
-h4,h5,h6,a, a:link, a:visited:hover {
+h4,
+h5,
+h6,
+a,
+a:link,
+a:visited:hover {
   color: #d1b3ff !important;
 }
 
-h1,h2,h3, .listbox .heading{
+h1,
+h2,
+h3,
+.listbox .heading {
   color: #dce775;
 }
 
-dl.index dd{
+dl.index dd {
   background-color: transparent;
 }
 
