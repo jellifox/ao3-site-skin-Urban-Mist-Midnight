@@ -1,0 +1,314 @@
+body {
+  background-color: #1e1e1e !important;
+  color: #bbbbbb !important;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+.actions a:visited, .action:visited, .action a:link, .action a:visited {
+  background-color: #f5f3fa23;
+  color: #bbbbbb;
+  border: 1.5px solid #7e57c2;
+}
+
+.actions a:hover,
+.actions a:link:hover,
+.action:hover,
+.action:link:hover,
+.actions button:hover,
+.actions input:hover,
+input[type="submit"]:hover,
+button:hover,
+.current:hover,
+.actions label:hover {
+  color: #dddddd;
+  border: 1.5px dashed #d1b3ff;
+}
+
+.dropdown .menu {
+  background: black !important;
+  border: 1px solid #555555 !important;
+  box-shadow: #d2d3d3;
+}
+
+.dropdown:hover > a,
+.dropdown:focus-within > a {
+  color: #bfa4dc;
+}
+
+.listbox,
+fieldset fieldset.listbox,
+.comment h4.byline {
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.3) 0%, rgba(148, 187, 233, 0.3) 100%);
+}
+
+fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+fieldset fieldset, fieldset dl dl, form blockquote.userstuff
+form blockquote.userstuff {
+  border: 3px dashed #aa7fe8;
+  background: #2b1c34;
+}
+
+#header h1 a {
+  color: #d1b3ff !important;
+}
+
+#header h1 sup {
+  color: #aa7fe8;
+}
+
+#header .primary a {
+  color: #d1b3ff !important;
+}
+
+#header .dropdown a {
+  color: #a8edea !important;
+}
+
+#header .primary a:hover {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  color: #000;
+}
+
+#greeting .menu li {
+  background: none;
+  border: none;
+  color: #a8edea;
+}
+
+#greeting > ul.user.navigation.actions > li:last-of-type {
+  background-color: #f3e5f5;
+  color: #1e1e1e !important;
+}
+
+#greeting ul.user.navigation.actions li a:hover {
+  color: #aa7fe8 !important;
+  background: none !important;
+}
+
+#greeting > ul.user.navigation.actions > li:last-of-type:hover a {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%) !important;
+  color: #1e1e1e !important;
+}
+
+#header .actions a:hover, #header .actions a:focus, #header .dropdown:hover a, #header .open a{
+  background-color: transparent;
+  background-image: none;
+  color: #d1b3ff;
+}
+
+li.search form.search input[type="text"] {
+  background: #121212 !important;
+  border: 2px dashed #d1b3ff !important;
+}
+#header .search .button {
+  background-color: #7e57c2;
+  color: #d1b3ff;
+}
+
+#header #search .button:hover {
+  background: linear-gradient(to top, #a8edea30, #fed6e330) !important;
+}
+
+#footer {
+  color: #fed6e3 !important;
+}
+
+#footer h4 {
+  color: #00d4ff !important;
+  font-weight: bold;
+}
+
+#footer ul.menu li,
+#footer ul.menu li a {
+  color: #dce775 !important;
+}
+
+#footer ul.menu li a:hover {
+  color: #ff6eb4 !important;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #222222;
+}
+
+.system .latest h3,
+.splash .module h3,
+.system .tweets h3 {
+  color: #d1b3ff;
+}
+
+li.blurb,
+.listbox li.blurb {
+  background: #121212;
+  border: 1px solid #444444;
+}
+
+li.blurb:hover {
+  border-color: #555555;
+}
+
+.blurb h4 a {
+  color: #d1b3ff !important;
+}
+
+.blurb h4 a:hover {
+  background-color: #aa7fe8;
+}
+
+.blurb h5 a:hover {
+  background-color: #aa7fe8b0;
+}
+
+.blurb .byline {
+  color: #aaaaaa;
+}
+ul.tags li {
+    color: #bfa4dc;
+}
+
+ul.tags li.warnings {
+  background-color: rgba(255, 100, 100, 0.2);
+}
+
+ul.tags li.relationships {
+  background-color: rgba(200, 230, 120, 0.2);
+}
+
+ul.tags li.characters {
+  background-color: rgba(190, 150, 255, 0.15);
+}
+
+ul.tags li.freeforms {
+  background-color: rgba(100, 220, 240, 0.15);
+}
+
+ul.tags li:hover {
+  background-image: linear-gradient(to top, #a8edea30 0%, #fed6e330 100%) !important;
+    color: #000;
+}
+
+ul.tags li a:hover {
+    color: #000 !important;
+}
+
+a.tag:hover {
+  background-color: #bfa4dc;
+  color: #d1b3ff;
+}
+
+#workskin .notes,
+dl.meta,
+.reading h4.viewed,
+.bookmark .user,
+.comment .posted,
+.comment .edited {
+  border: 3px dotted #ff6eb4;
+}
+
+#dashboard.own,
+#dashboard {
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.3) 0%, rgba(148, 187, 233, 0.3) 100%) border-box,
+    #121212 padding-box;
+  color: #f0f0f0;
+}
+
+#dashboard a:hover,
+#dashboard a:focus {
+  background-color: #ddd;
+  color: #bbbbbb;
+}
+
+#dashboard .current {
+  background-color: #121212;
+  color: #bbbbbb;
+}
+
+#main,
+.work.own .bookmark .blurb {
+  background: #1a1a1a;
+  border: 2px solid #d1b3ff;
+}
+
+.thread .even {
+  background: #121212 !important;
+}
+
+.required,
+.error,
+.alert.flash {
+  color: #ff8a80;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background-color: #3a1a1a;
+  border: 1.5px solid #555555;
+}
+
+form.verbose legend,
+.verbose form legend {
+  color: #d1b3ff;
+}
+
+select,
+.checkbox,
+.required .autocomplete,
+.autocomplete .notice,
+.autocomplete input,
+input, textarea,
+.autocomplete .dropdown ul li,
+div.comment, li.comment  {
+  color: #bfa4dc;
+}
+
+select:focus,
+input:focus,
+textarea:focus,
+.autocomplete input:focus,
+.autocomplete .dropdown ul li:focus,
+div.comment:focus,
+li.comment:focus {
+  background-color: #f0f0f050;
+  color: #d1b3ff !important;
+}
+
+.listbox .index{
+  background-color: transparent;
+}
+
+h4,h5,h6,a, a:link, a:visited:hover {
+  color: #d1b3ff !important;
+}
+
+h1,h2,h3, .listbox .heading{
+  color: #dce775;
+}
+
+dl.index dd{
+  background-color: transparent;
+}
+
+label,
+.filters .expander {
+  color: #a8edea;
+}
