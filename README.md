@@ -2,7 +2,7 @@
 
 This is a two-layered AO3 site skin setup designed for users who want an elegant dark mode (midnight) built on top of a soft neutral base (mist). You can use either skin on its own, or stack them using AO3’s parent skin feature to modularly toggle enhancements.
 
-⸻
+---
 
 **✨ What They Do**
 
@@ -11,7 +11,7 @@ This is a two-layered AO3 site skin setup designed for users who want an elegant
 
 midnight assumes mist as its parent. It does not work standalone.
 
-⸻
+---
 
 **✅ How to Install**
 
@@ -37,9 +37,28 @@ Go to archiveofourown.org and log into your account.
 	6.	Type in mist (or whatever name you gave the base skin), and select it
 	7.	Submit the skin and click Use
 
-⸻
+---
 
-🌓 Toggling Styles
+**🌓 Toggling Styles**
 
 * If you want to switch back to the light mode (mist), just go to your Skins page and click Use next to mist
 * To enable dark mode, click Use on midnight instead — it will inherit all settings from mist, and override only the necessary colors
+
+---
+
+**Preview**
+
+☀️Light mode:
+
+![IMG-5496](https://i.postimg.cc/FHqn5dWT/IMG-5496.png)
+![IMG-5497](https://i.postimg.cc/CKqrFh9S/IMG-5497.png)
+![IMG-5498](https://i.postimg.cc/XqVscwqY/IMG-5498.png)
+![IMG-5503](https://i.postimg.cc/sDgnM9bn/IMG-5503.png)
+![IMG-5499](https://i.postimg.cc/pTMGyNt8/IMG-5499.png)
+
+🌙Dark mode:
+
+![IMG-5500](https://i.postimg.cc/gJyMZMY7/IMG-5500.png)
+![IMG-5501](https://i.postimg.cc/BbMMhXPc/IMG-5501.png)
+![IMG-5502](https://i.postimg.cc/qBLbBZDh/IMG-5502.png)
+
