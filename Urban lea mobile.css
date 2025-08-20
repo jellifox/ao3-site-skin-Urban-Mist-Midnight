@@ -1,0 +1,5 @@
+body {
+  background-size: contain !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+}

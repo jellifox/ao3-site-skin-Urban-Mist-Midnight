@@ -1,0 +1,390 @@
+body {
+  background-image: url('https://www.51artworld.com/wp-content/uploads/2022/11/1668864740-Goldfish.jpg') !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #2c3e2c;
+  font-family: 'Helvetica Neue', 'Inter', sans-serif;
+  position: relative;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(230, 244, 234, 0.6);
+  z-index: -1;
+}
+
+#header .button,
+#header .landmark,
+#header .logo {
+  display: none;
+}
+
+#header h1 a,
+#header .primary a,
+.system .latest h3,
+.splash .module h3,
+.system .tweets h3,
+.blurb h4 a,
+#main,
+.work.own .bookmark .blurb,
+h4,
+h5,
+h6,
+.splash .browse li a:before {
+  color: #3a6b35 !important;
+}
+
+.blurb .work .group {
+  background-color: transparent !important;
+}
+
+#header .actions a,
+#header .actions a:link,
+#header .action,
+#header .action:link,
+#header .actions button,
+#header .actions input,
+#header input[type="submit"],
+#header button,
+#header .current,
+#header .actions label {
+  position: relative;
+  z-index: 0;
+}
+
+#header .actions a::before,
+#header .actions button::before,
+#header .actions input::before,
+#header .action::before,
+#header input[type="submit"]::before,
+#header button::before,
+#header .actions label::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+#greeting > ul.user.navigation.actions > li:last-of-type {
+  background-color: transparent !important;
+  border: none;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+#greeting ul.user.navigation.actions li a:hover {
+  color: #faf7d1 !important;
+  background: none !important;
+}
+
+#greeting > ul.user.navigation.actions > li:last-of-type:hover a {
+  background: linear-gradient(to bottom, #76b852, #8dc26f) !important;
+  color: #faf7d1 !important;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: linear-gradient(to bottom, #76b852, #8dc26f);
+  color: #2c3e2c;
+  border: 1.5px solid #76b852;
+  box-shadow: none !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  background-image: none !important;
+}
+
+.actions a:hover,
+.actions a:link:hover,
+.action:hover,
+.action:link:hover,
+.actions button:hover,
+.actions input:hover,
+input[type="submit"]:hover,
+button:hover,
+.current:hover,
+.actions label:hover {
+  color: #1b2d1b;
+  border: 1.5px dashed #5e8a47;
+  background: linear-gradient(to bottom, #8dc26f, #a5d584);
+}
+
+.dropdown .menu {
+  display: none;
+  position: absolute;
+  background: linear-gradient(to bottom, #76b852, #8dc26f) !important;
+  border: 1px solid #6aa848 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 8px rgba(134, 189, 103, 0.7);
+}
+
+.dropdown:hover > a,
+.dropdown:focus-within > a {
+  background-image: none;
+  background-color: transparent;
+  color: #4a7a4a;
+}
+
+.dropdown .menu {
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dropdown:hover .menu,
+.dropdown:focus-within .menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.listbox,
+fieldset fieldset.listbox,
+.comment h4.byline {
+  border-radius: 10px;
+  border: 1.5px solid #6aa848;
+  background: radial-gradient(circle, rgba(165, 213, 132, 0.3), rgba(250, 247, 209, 0.3));
+}
+
+fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  border: 3px dashed #5e8a47;
+  box-shadow: none;
+  background: #eaf4ea;
+  border-radius: 20px;
+}
+
+#header {
+  background: none;
+  text-align: center;
+  padding: 1.5em 4%;
+  margin: 0 auto;
+}
+
+#header h1 a {
+  font-size: 2.6em;
+  font-weight: 900;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -0.03em;
+  color: #4a7a4a !important;
+  font-style: italic;
+  text-decoration: none;
+  transform: skew(-6deg);
+}
+
+#header h1 sup {
+  font-size: 0.6em;
+  color: #80b380;
+  margin-left: 0.2em;
+}
+
+#header .primary {
+  text-align: center;
+  margin-top: 0.5em;
+  background: none;
+  box-shadow: none;
+  padding: 0.5em 0;
+}
+
+#header .primary a {
+  color: #4a7a4a !important;
+  padding: 0.3em 0.8em;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#header .primary a:hover,
+.dropdown:hover > a,
+.dropdown:focus-within > a {
+  background-color: transparent;
+  color: #80b380 !important;
+}
+
+li.search form.search input[type="text"] {
+  background: #f0f8f0 !important;
+  border: 2px dashed #4a7a4a !important;
+  border-radius: 20px !important;
+}
+
+li.search form.search input[type="text"]:hover {
+  box-shadow: none !important;
+}
+
+#header .search .button {
+  background-color: #a3d1a3;
+  color: #2c3e2c;
+  border-radius: 999px;
+  margin: 3px !important;
+}
+
+#header .primary a:hover,
+.dropdown:hover > a,
+.dropdown:focus-within > a {
+  background-color: transparent;
+  color: #80b380 !important;
+}
+
+#header #search .button:hover {
+  background: linear-gradient(to top, #80b380, #c1e4c1) !important;
+  box-shadow: none !important;
+}
+
+#dashboard.own,
+#dashboard {
+  background: radial-gradient(circle, rgba(118, 184, 82, 0.3) 0%, rgba(141, 194, 111, 0.3) 100%) border-box,
+    #e6f4ea padding-box;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-radius: 15px;
+  color: #2c3e2c;
+}
+
+.home .header h2 {
+  border-bottom: none;
+}
+
+#main,
+.work.own .bookmark .blurb {
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid #76b852;
+  border-radius: 10px;
+  padding: 2em;
+  max-width: 1080px;
+  min-width: 200px;
+  margin: auto;
+}
+
+li.blurb,
+.listbox li.blurb,
+.thread .even {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.listbox .index {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.required,
+.error,
+.alert.flash {
+  color: #c63737;
+}
+
+dl.meta,
+.reading h4.viewed,
+.bookmark .user,
+.comment .posted,
+.comment .edited {
+  font-size: 90%;
+  box-shadow: none;
+  border-radius: 10px;
+  border: 3px dotted #76b852;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background-color: #2c4d28;
+  border: 1.5px solid #ccc;
+  color: #c1e4c1;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+form.verbose legend,
+.verbose form legend {
+  border: none;
+  font-weight: bold;
+  font-size: 1.4em;
+  background: none;
+  box-shadow: none;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -0.03em;
+  color: #4a7a4a;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+ul.tags li {
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+  color: #2c3e2c;
+  border-radius: 999px;
+  font-weight: 500;
+  display: inline-block;
+  margin: 0.25em 0.5em 0 0;
+  padding: 0.3em 0.75em;
+  transition: background 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+ul.tags li:hover {
+  background: linear-gradient(to right, #faffd1, #a1ffce);
+  color: #14532d;
+}
+
+ul.tags li.warnings {
+  background: linear-gradient(to right, #faffd1, #faf7d1);
+  color: #5a3a20;
+}
+
+ul.tags li.relationships {
+  background: linear-gradient(to right, #a1ffce, #c4f6d8);
+  color: #2c4d28;
+}
+
+ul.tags li.characters {
+  background: linear-gradient(to right, #defaf3, #e2fff8);
+  color: #17554b;
+}
+
+ul.tags li.freeforms {
+  background: linear-gradient(to right, #d9f1f1, #e0fff4);
+  color: #145c54;
+}
+
+ul.tags li a:hover {
+  color: #14532d !important;
+  background: none !important;
+}
+
+a.tag:hover {
+  background-color: #f0f8f0;
+  color: #2c3e2c;
+}
+
+form.verbose legend a,
+.verbose form legend a {
+  font-size: 1em !important;
+  color: #a5d584;
+}
