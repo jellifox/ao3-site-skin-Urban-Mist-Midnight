@@ -1,14 +1,16 @@
 #header .button,
 #header .landmark,
-#header .logo{
+#header .logo {
   display: none;
 }
 
-h4,h5,h6{
+h4,
+h5,
+h6 {
   color: #6a1b9a;
 }
 
-.splash .browse li a:before{
+.splash .browse li a:before {
   color: #6a1b9a;
 }
 
@@ -36,10 +38,11 @@ select,
 .required .autocomplete,
 .autocomplete .notice,
 .autocomplete input,
-input, textarea,
+input,
+textarea,
 .autocomplete .dropdown ul li,
-div.comment, li.comment  {
-  /* color: #464646; */
+div.comment,
+li.comment {
   border: none;
   border-radius: 5px;
   accent-color: #d1b3ff;
@@ -114,11 +117,15 @@ fieldset fieldset.listbox,
 .comment h4.byline {
   border-radius: 10px;
   border: 1.5px solid #d1c4e9;
-  background: #EEAECA;
   background: radial-gradient(circle, rgba(238, 174, 202, 0.3) 0%, rgba(148, 187, 233, 0.3) 100%);
 }
 
-fieldset, fieldset dl dl, fieldset fieldset fieldset, fieldset fieldset dl dl, dd.hideme, form blockquote.userstuff {
+fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
   border: 3px dashed #bfa4dc;
   box-shadow: none;
   background: #f3effa;
@@ -132,7 +139,6 @@ fieldset, fieldset dl dl, fieldset fieldset fieldset, fieldset fieldset dl dl, d
   max-width: 100%;
 }
 
-/* --- Header Styling --- */
 #header {
   background: none;
   text-align: center;
@@ -140,7 +146,7 @@ fieldset, fieldset dl dl, fieldset fieldset fieldset, fieldset fieldset dl dl, d
   margin: 0 auto;
 }
 
- #header h1 a {
+#header h1 a {
   font-size: 2.6em;
   font-weight: 900;
   font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -174,12 +180,12 @@ fieldset, fieldset dl dl, fieldset fieldset fieldset, fieldset fieldset dl dl, d
 
 #header .primary a:hover,
 .dropdown:hover > a,
-.dropdown:focus-within > a  {
+.dropdown:focus-within > a {
   background-color: transparent;
   color: #bfa4dc !important;
 }
 
-.home .header ul.actions{
+.home .header ul.actions {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -223,7 +229,7 @@ fieldset, fieldset dl dl, fieldset fieldset fieldset, fieldset fieldset dl dl, d
   background: none !important;
 }
 
-#greeting > ul.user.navigation.actions > li:last-of-type:hover a{
+#greeting > ul.user.navigation.actions > li:last-of-type:hover a {
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%) !important;
   color: #6a1b9a !important;
 }
@@ -255,15 +261,17 @@ li.search form.search input[type="text"]:hover {
   display: inline-block !important;
 }
 
-#header .actions a:hover, #header .actions a:focus, #header .dropdown:hover a, #header .open a{
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a {
   background-color: transparent;
 }
-/* ---  Footer --- */
+
 #footer {
   background: none;
   border: none;
   text-align: center;
-  /* font-size: 0.85em; */
   color: #fed6e3 !important;
   margin-top: 3em;
   padding-top: 1em;
@@ -283,7 +291,6 @@ li.search form.search input[type="text"]:hover {
   color: #fa93cc !important;
 }
 
-/* --- Favorite Module / Splash --- */
 .splash .favorite li:nth-of-type(odd) a {
   background: #f0f0f0;
 }
@@ -294,7 +301,6 @@ li.search form.search input[type="text"]:hover {
   color: #6a1b9a;
 }
 
-/* --- Blurb (Work Summary) --- */
 li.blurb,
 .listbox li.blurb {
   background: #ffffff;
@@ -309,7 +315,6 @@ li.blurb:hover {
 }
 
 .blurb h4 a {
-  /* font-size: 1.25em; */
   font-weight: 500;
   color: #6a1b9a !important;
   text-decoration: none;
@@ -324,12 +329,10 @@ li.blurb:hover {
 }
 
 .blurb .byline {
-  /* font-size: 0.9em; */
   color: #666;
   margin-top: 0.25em;
 }
 
-/* --- Tag Styling --- */
 ul.tags li {
   display: inline-block;
   margin: 0.25em 0.5em 0 0;
@@ -339,11 +342,21 @@ ul.tags li {
   color: #333;
 }
 
-ul.tags li.warnings       { background-color: #ffe0e0; }
-ul.tags li.relationships  { background-color: #e6ee9c; }
-ul.tags li.characters     { background-color: #f3e5f5; }
-ul.tags li.freeforms      { background-color: #e0f7fa; }
+ul.tags li.warnings {
+  background-color: #ffe0e0;
+}
 
+ul.tags li.relationships {
+  background-color: #e6ee9c;
+}
+
+ul.tags li.characters {
+  background-color: #f3e5f5;
+}
+
+ul.tags li.freeforms {
+  background-color: #e0f7fa;
+}
 
 li.relationships a {
   background: none !important;
@@ -362,7 +375,7 @@ ul.tags li a:hover {
 a.tag:hover {
   background-color: #bfa4dc;
 }
-/* --- Work --- */
+
 dl.meta,
 .reading h4.viewed,
 .bookmark .user,
@@ -382,20 +395,9 @@ dl.meta,
   font-size: 2.7em;
 }
 
-/* --- Dashboard --- */
-/* #dashboard.own,
-#dashboard {
-  background: #ffffff;
-  color: #000;
-  border-top: 15px solid transparent;
-  border-image: radial-gradient(circle, rgba(238, 174, 202, 0.3) 0%, rgba(148, 187, 233, 0.3) 100%);
-  border-image-slice: 1;
-  border-radius: 15px;
-} */
 #dashboard.own,
 #dashboard {
-  background: 
-    radial-gradient(circle, rgba(238, 174, 202, 0.3) 0%, rgba(148, 187, 233, 0.3) 100%) border-box,
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.3) 0%, rgba(148, 187, 233, 0.3) 100%) border-box,
     #ffffff padding-box;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
@@ -425,11 +427,8 @@ dl.meta,
   border-bottom: none;
 }
 
-/* --- Main Content Container --- */
 #main,
-.work.own
-.bookmark .blurb{
-/* .thread .even { */
+.work.own .bookmark .blurb {
   background: #f9f9f9;
   border: 2px solid #6a1b9a;
   border-radius: 10px;
@@ -448,18 +447,29 @@ dl.meta,
   box-shadow: none;
 }
 
-.required, .error, .alert.flash {
+.required,
+.error,
+.alert.flash {
   color: #e57373;
 }
 
-.notice, .comment_notice, .kudos_notice, ul.notes, .caution, .error, .comment_error, .kudos_error, .alert.flash {
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
   background-color: #fdecea;
   border: 1.5px solid #ccc;
   border-radius: 10px;
   box-shadow: none;
 }
 
-form.verbose legend, .verbose form legend {
+form.verbose legend,
+.verbose form legend {
   border: none;
   font-weight: bold;
   font-size: 1.4em;
@@ -469,7 +479,7 @@ form.verbose legend, .verbose form legend {
   letter-spacing: -0.03em;
   color: #6a1b9a;
   font-style: italic;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 form.verbose legend a,
