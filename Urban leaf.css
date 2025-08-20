@@ -349,7 +349,7 @@ ul.tags li {
 }
 
 ul.tags li:hover {
-  background: linear-gradient(to right, #faffd1, #a1ffce);
+  background-image: linear-gradient(to right, #faffd1, #a1ffce);
   color: #14532d;
 }
 
@@ -373,10 +373,6 @@ ul.tags li.freeforms {
   color: #145c54;
 }
 
-ul.tags li a:hover {
-  color: #14532d !important;
-  background: none !important;
-}
 
 a.tag:hover {
   background-color: #f0f8f0;
